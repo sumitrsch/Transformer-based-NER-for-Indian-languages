@@ -21,3 +21,12 @@ Step 1: Preprocessing
         model_version, best_model_path, test_data_file, model_max_length,  batch_size
         
         best_model_path = Training saves model for each epoch. Select model which gives highest F1-score on valid_data.
+
+
+
+model_version =  'ai4bharat/indic-bert' / 
+                 'xlm-roberta-base' / 
+                 'xlm-roberta-large' / 
+                 'google/muril-large-cased' /
+                 'google/muril-base-cased' / 
+                 'bert-base-multilingual-cased'
